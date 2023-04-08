@@ -15,7 +15,8 @@ RSpec.describe Comment, type: :model do
         likes_counter: 0,
         comments_counter: 0
       ),
-      author: User.new(name: 'Jay', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', bio: 'Student from South Africa.', posts_counter: 0), text: 'This is a new comment'
+      author: User.new(name: 'Jay', photo: 'https://unsplash.com/photos/F_-0BxGuVvo',
+                       bio: 'Student from South Africa.', posts_counter: 0), text: 'This is a new comment'
     )
   end
 
