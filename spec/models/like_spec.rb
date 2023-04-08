@@ -19,6 +19,6 @@ RSpec.describe Like, type: :model do
   before { subject.save }
 
   it 'update_comments_counter should return a right result when calling it with before save' do
-    expect(subject.post.likes_counter).to eq(0)
+    expect(subject.post.likes_counter).to eq(1)
   end
 end

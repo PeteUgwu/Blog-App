@@ -25,6 +25,6 @@ RSpec.describe User, type: :model do
     subject.posts.create(title: 'Hey', text: 'This is my third post')
     subject.posts.create(title: 'Hey', text: 'This is my fourth post')
     subject.posts.create(title: 'Hey', text: 'This is my fifth post')
-    expect(subject.three_most_recent_post.count).to eql(3)
+    expect(subject.three_most_recent_posts.count).to eql(3)
   end
 end
