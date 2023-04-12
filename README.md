@@ -139,6 +139,8 @@ You can deploy this project using:
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
+- Add RSpec as a gem to your project.
+- Create a Request spec file for all your controllers.
 - Delete a user
 - Delete a post and edit a post
 - Add image in a post
