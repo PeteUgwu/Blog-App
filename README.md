@@ -9,14 +9,12 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -29,7 +27,7 @@
 
 # 📖 BLOG APP <a name="about-project"></a>
 
-> A full-stack blog app built with Roby on Rails framework
+> In this project, I created all controllers and views for the Blog app. As no data is required to be processed yet, I added simple placeholders for the views with plain HTML.
 
 ### Key Features <a name="key-features"></a>
 
@@ -41,9 +39,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
 
 <!-- > Add a link to your deployed project. -->
 
@@ -107,14 +102,7 @@ rails server
 To run tests, run the following command:
 
 ```
-```
-
-### Deployment
-
-You can deploy this project using:
-
-```
-
+Rspec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -139,6 +127,8 @@ You can deploy this project using:
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
+- Add RSpec as a gem to your project.
+- Create a Request spec file for all your controllers.
 - Delete a user
 - Delete a post and edit a post
 - Add image in a post
@@ -170,6 +160,15 @@ If you like this project, Please give it a ⭐️
 Thanks [@microverse](https://www.microverse.org/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## FAQ <a name="faq"></a>
+
+# How do I add route to rail app?
+- Run rails routes
+
+# How do I generate rails controller files?
+- Run rails g controller controller_name
+NB: It is a naming convention to pluralize controller names
 
 ## 📝 License <a name="license"></a>
 
