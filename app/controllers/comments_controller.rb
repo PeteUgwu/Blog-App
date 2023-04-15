@@ -7,10 +7,10 @@ class CommentsController < ApplicationController
     @comment = Comment.new(comment_params)
 
     if @comment.save
-        redirect_to user_post_path(@comment.post.author, @comment.post)
-     else
-       render :new
-     end
+      redirect_to user_post_path(@comment.post.author, @comment.post)
+    else
+      render :new
+    end
   end
 
   private
