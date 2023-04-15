@@ -26,14 +26,15 @@
 
 # 📖 BLOG APP <a name="about-project"></a>
 
-> In this project, I set up tests on the controllers that were recently added to the Blog app.
+> In this project I added forms to the Blog app.
 
 ### Key Features <a name="key-features"></a>
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- Add RSpec as a gem to your project.
-- Create a Request spec file for all your controllers.
+- Create a method called current_user in ApplicationController to make current user data available to all controllers.
+- Create forms to Post and comment on behalf of the current_user method.
+- Allow Users to add likes to Posts.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
