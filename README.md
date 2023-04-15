@@ -26,15 +26,14 @@
 
 # 📖 BLOG APP <a name="about-project"></a>
 
-> In this project, I created all controllers and views for the Blog app. As no data is required to be processed yet, I added simple placeholders for the views with plain HTML.
+> In this project, I set up tests on the controllers that were recently added to the Blog app.
 
 ### Key Features <a name="key-features"></a>
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- Add new blog post.
-- Create a user account.
-- Add comments to a post.
+- Add RSpec as a gem to your project.
+- Create a Request spec file for all your controllers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,8 +121,6 @@ rspec spec --format documentation
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
-- Add RSpec as a gem to your project.
-- Create a Request spec file for all your controllers.
 - Delete a user
 - Delete a post and edit a post
 - Add image in a post
