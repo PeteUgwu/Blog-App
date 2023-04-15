@@ -1,4 +1,3 @@
-
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
@@ -39,12 +38,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- > Add a link to your deployed project. -->
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -60,9 +53,11 @@ In order to run this project you need:
 ```
 Install Ruby
 ```
+
 ```
 Install Rails
 ```
+
 ```
 Install Postgresql
 ```
@@ -83,11 +78,11 @@ Install this project with:
   cd Blog-App
   bundle install
 ```
+
 ```
   Setup database credentials
   config/database.yml
 ```
-
 
 ### Usage
 
@@ -102,7 +97,7 @@ rails server
 To run tests, run the following command:
 
 ```
-Rspec
+rspec spec --format documentation
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -112,18 +107,18 @@ Rspec
 ## 👥 Author <a name="authors"></a>
 
 <!-- > Mention all of the collaborators of this project. -->
+
 👤 Peter Ugwu
 
 - GitHub: [@PeteUgwu](https://github.com/PeteUgwu)
 - Twitter: [@Petrus4Charles](https://twitter.com/Petrus4Charles)
 - LinkedIn: [@peteugwu](https://www.linkedin.com/in/peteugwu/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
- ## 🔭 Future Features <a name="future-features"></a> 
+## 🔭 Future Features <a name="future-features"></a>
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
@@ -147,7 +142,7 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- SUPPORT -->
 
- ## ⭐️ Show your support <a name="support"></a> 
+## ⭐️ Show your support <a name="support"></a>
 
 If you like this project, Please give it a ⭐️
 
@@ -155,7 +150,7 @@ If you like this project, Please give it a ⭐️
 
 <!-- ACKNOWLEDGEMENTS -->
 
- ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 Thanks [@microverse](https://www.microverse.org/)
 
@@ -164,11 +159,13 @@ Thanks [@microverse](https://www.microverse.org/)
 ## FAQ <a name="faq"></a>
 
 # How do I add route to rail app?
+
 - Run rails routes
 
 # How do I generate rails controller files?
+
 - Run rails g controller controller_name
-NB: It is a naming convention to pluralize controller names
+  NB: It is a naming convention to pluralize controller names
 
 ## 📝 License <a name="license"></a>
 
