@@ -27,6 +27,7 @@
 # 📖 BLOG APP <a name="about-project"></a>
 
 > In this project, we will create integration tests for all of the views used in our project. It covers the user stories (or user workflows) that you want your users to experience while taking into consideration the possible errors your users may cause.
+
 ### Key Features <a name="key-features"></a>
 
 <!-- > Describe between 1-3 key features of the application. -->
@@ -126,8 +127,8 @@ rspec spec --format documentation
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
-- [ ] Create API endpoints
-- [ ] Implement authentication
+- Add devise
+- Add Authorization rules
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
