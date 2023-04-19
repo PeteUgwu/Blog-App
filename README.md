@@ -26,15 +26,14 @@
 
 # 📖 BLOG APP <a name="about-project"></a>
 
-> In this project I added forms to the Blog app.
+> In this project, we will create integration tests for all of the views used in our project. It covers the user stories (or user workflows) that you want your users to experience while taking into consideration the possible errors your users may cause.
 
 ### Key Features <a name="key-features"></a>
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- Create a method called current_user in ApplicationController to make current user data available to all controllers.
-- Create forms to Post and comment on behalf of the current_user method.
-- Allow Users to add likes to Posts.
+- Solved N+1 problems when fetching all posts and their comments for a user, using includes.
+- Used Capybara to write integration tests for each view in the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,6 +113,12 @@ rspec spec --format documentation
 - Twitter: [@Petrus4Charles](https://twitter.com/Petrus4Charles)
 - LinkedIn: [@peteugwu](https://www.linkedin.com/in/peteugwu/)
 
+👤 **Bernabas**
+
+- GitHub: [@githubhandle](https://github.com/bernabasy)
+- Twitter: [@twitterhandle](https://twitter.com/@bernabasjosef)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bernabas-yosef)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -122,9 +127,8 @@ rspec spec --format documentation
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
-- Delete a user
-- Delete a post and edit a post
-- Add image in a post
+- Add devise
+- Add Authorization rules
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
