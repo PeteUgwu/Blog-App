@@ -3,7 +3,6 @@ require 'capybara/rspec'
 
 base_url = 'http://localhost:3000'
 
-
 RSpec.feature 'Users#index view', type: :feature, js: true do
   users = User.all
 
