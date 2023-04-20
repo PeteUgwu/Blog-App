@@ -26,14 +26,15 @@
 
 # 📖 BLOG APP <a name="about-project"></a>
 
-> In this project, we will create integration tests for all of the views used in our project. It covers the user stories (or user workflows) that you want your users to experience while taking into consideration the possible errors your users may cause.
+> In this project, I added the devise gem to the app and used it for the registration and login of users.
 
 ### Key Features <a name="key-features"></a>
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- Solved N+1 problems when fetching all posts and their comments for a user, using includes.
-- Used Capybara to write integration tests for each view in the project.
+- Removed current_user method in ApplicationController, devise provided it.
+- Installed and setup devise.
+- Modified the views in devise for registration and login to match the wireframes from the Sneak Peek and my styling.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,8 +128,8 @@ rspec spec --format documentation
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
-- Add devise
-- Add Authorization rules
+- [ ] Create API endpoints
+- [ ] Implement authorization
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

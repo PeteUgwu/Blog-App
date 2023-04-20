@@ -33,6 +33,9 @@ gem 'jbuilder'
 # rubocop linters
 gem 'rubocop', '>= 1.0', '< 2.0'
 
+# handle everything related to authentication for Rails
+gem 'devise'
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
