@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   load_and_authorize_resource
-  before_action :authenticate_user!
+  before_action :authenticate_user!, only: [:create]
 
   def index
     @user = User.includes(posts: :comments).find(params[:user_id])
@@ -16,6 +16,7 @@ class PostsController < ApplicationController
 
   def create
     @post = Post.new(post_params)
+    @post.author = current_user
 
     if @post.save
       redirect_to user_posts_path(current_user)
