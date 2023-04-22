@@ -26,16 +26,16 @@
 
 # 📖 BLOG APP <a name="about-project"></a>
 
-> In this project, we added authorization to our app using CanCanCan.
+> In this project, we add some API endpoints to your Blog app. This will allow our app to be used in different ways, rather than just through our site - for example, a mobile app or a CLI application.
 
 ### Key Features <a name="key-features"></a>
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- Install CanCanCan in your project.
-- Add a role column to the users table.
-- A user can delete a post if it is theirs or if they have an admin role.
-- A user can delete a comment if it is theirs or if they have an admin role.
+- Create an API endpoint to list all posts for a user.
+- Create an API endpoint to list all comments for a user's post.
+- Create an API endpoint to add a comment to a post. Remember that the owner of the comment is the user that makes it; it should not be set by passing a parameter.
+- Our API endpoints should receive JSON and respond JSON as well.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,7 +129,7 @@ rspec spec --format documentation
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
-- [ ] Create API endpoints
+- [ ] Update style to make more nice.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
