@@ -8,7 +8,7 @@
     </div>
     <div class="user_posts_main">
         <%- @user.posts.each do |post| -%>
-            <div class="user_posts_info">
+           <div class="user_posts_info">
             <h3 class="user_post_title"><%= link_to post.title, user_post_path(post.author, post.id) %></h3>
                 <p><%= post.text %></p>
                 <div class="user_posts_comments_likes">
@@ -16,13 +16,24 @@
                     <span>Likes: <%= post.likes_counter %></span>
                 </div>
                 <a href="/users/<%= @user.id %>/posts/<%= post.id %>" class="">view post</a>
+                <div>
+                <% if can? :destroy, post %>
+                    <%= button_to 'Delete post', user_post_path(post.author, post), method: :delete, data: { confirm: 'Are you sure?' } %>
+                <% end %>
             </div>
+            </div>
+            <span class="top_comments">Top five comments</span>
             <div class="user_comments_info">
                 <% post.five_most_recent_comments.each do |comment| %>
                     <div class="user_comment_div">
                         <span><%= comment.author.name  %>: </span>
                         <span><%= comment.text  %></span>
                     </div>
+                    <div>
+                    <% if can? :destroy, comment %>
+                        <%= button_to 'Delete comment', user_post_comment_path(comment.author, post, comment), method: :delete, data: { confirm: 'Are you sure?' } %>
+                    <% end %>
+                </div>
                 <%-end-%>
             </div>
         <%-end-%>
