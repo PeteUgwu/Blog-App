@@ -1,13 +1,15 @@
 class CommentsController < ApplicationController
   load_and_authorize_resource
-  before_action :authenticate_user!
+  before_action :authenticate_user!, only: [:create]
 
   def new
     @comment = Comment.new
   end
 
   def create
-    @comment = Comment.new(comment_params)
+    @post = Post.find(params[:post_id])
+    @comment = @post.comments.build(comment_params)
+    @comment.author = current_user
 
     if @comment.save
       redirect_to user_post_path(params[:user_id], params[:post_id])
